@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.login-form, .top{
+    position: relative;
+    top: 40%;
+}
+
+@media screen and (min-width:940px) and (max-width: 1023px){
+     .login-form, .top{
+        top: 25% !important;
+    }
+}
+
+@media screen and (min-width:720px) and (max-width: 940px){
+   
+}
+
+@media screen and (min-width:576px) and (max-width: 719px){
+    .login-form, .top{
+        top: 15% !important;
+    }
+    
+}
+
+@media screen and (min-width:320px) and (max-width:575px){
+    .login-form, .top{
+        top: 5% !important;
+    }
+}    

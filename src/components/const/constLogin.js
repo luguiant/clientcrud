@@ -1,0 +1,3 @@
+export const LOAD_LOGIN_SUCCESS = 'LOAD_LOGIN_SUCCESS';
+export const LOAD_RESET_LOGIN = 'LOAD_RESET_LOGIN';
+
